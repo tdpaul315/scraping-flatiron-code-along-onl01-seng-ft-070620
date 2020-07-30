@@ -14,6 +14,7 @@ class Scraper
     #   course.title = post.css("h2").text
     #   course.schedule = post.css(".date").text
     #   course.description = post.css("p").text
+<<<<<<< HEAD
   end 
 
 def get_courses
@@ -28,6 +29,11 @@ def make_courses
     course.description = post.css("p").text
   end
 end
+=======
+    
+  end
+end 
+>>>>>>> 0437dba39f2db7bdcf88dcfb65bbc8a03f25f7d7
   
   def print_courses
     self.make_courses
@@ -42,6 +48,10 @@ end
   
 end
 
+<<<<<<< HEAD
 Scraper.new.print_courses 
+=======
+Scraper.new.get_page 
+>>>>>>> 0437dba39f2db7bdcf88dcfb65bbc8a03f25f7d7
 
 
